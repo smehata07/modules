@@ -16,7 +16,7 @@ resource "google_compute_instance" "default" {
 
   network_interface {
     network    = var.network_name
-    network_ip = var.statics_ip
+    network_ip = var.static_ip
     subnetwork = var.subnet_name
   }
 }
