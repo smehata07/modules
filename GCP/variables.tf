@@ -26,3 +26,6 @@ variable "test"{
 type = string
 default = "This is test variable"
 }
+output "testing" {
+    value = var.test
+}
