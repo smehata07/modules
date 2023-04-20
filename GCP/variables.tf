@@ -21,3 +21,8 @@ variable "machine_type" {
   type = string
 
 }
+
+variable "test"{
+type = string
+default = "This is test variable"
+}
