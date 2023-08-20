@@ -3,6 +3,7 @@ resource "google_compute_instance" "default" {
 
   name         = var.server_name
   machine_type = var.machine_type
+  region       = "asia-east1"
   zone         = var.zone
   labels = {
   }
